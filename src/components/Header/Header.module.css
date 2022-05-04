@@ -1,0 +1,18 @@
+.containerHeader {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 7%;
+  background-color: #1C1D25FF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid cadetblue;
+  z-index: 100;
+}
+
+@media(max-width:768px) {
+  .containerHeader{
+    padding: 0 3%;
+  }
+}

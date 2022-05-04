@@ -1,0 +1,60 @@
+.title {
+  z-index: 7;
+  position: absolute;
+  top: 35%;
+  left: 10%;
+}
+
+.title h2 {
+  cursor: default;
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+
+.subtitle {
+  cursor: default;
+  font-size: 1.6rem;
+  color: white;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 2rem;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, rgb(45, 45, 206) 40%, rgb(239, 72, 61) 60%);
+  background-size: 300% 100%;
+  transition: background-position .5s;
+  background-position: 100%;
+  border: none;
+  padding: 1em 2em;
+}
+
+
+.link:hover a {
+  background-position: 0%;
+}
+
+@media(max-width: 899px) {
+  .title h2 {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+  }
+  .link {
+    margin-top: 3rem;
+  }
+  .link a {
+    padding: 0.7em 1.7em;
+  }
+}

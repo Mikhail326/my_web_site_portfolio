@@ -1,0 +1,30 @@
+.socials {
+    position: absolute;
+    top: 32%;
+    right: 5%;
+}
+
+.socialsList {
+    list-style: none;
+}
+
+.socialsListItem {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.socialsListItem a {
+    color: cadetblue;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.socialsListItem:hover a {
+    color: white;
+}
+
+@media(max-width: 760px) {
+    .socials {
+        display: none;
+    }
+}

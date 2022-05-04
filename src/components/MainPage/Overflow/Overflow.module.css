@@ -1,0 +1,182 @@
+.html {
+  position: absolute;
+  top: 18%;
+  left: 11%;
+  color: rgba(255, 255, 255, 0.08);
+  transform: rotate(20deg);
+  cursor: default;
+  transition: 1s;
+}
+
+.html:hover {
+  color: white;
+}
+
+.css {
+  position: absolute;
+  top: 37%;
+  right: 35%;
+  color: rgba(255, 255, 255, 0.08);
+  transform: rotate(-10deg);
+  cursor: default;
+  transition: 1s;
+}
+
+.css:hover {
+  color: white;
+}
+
+.js {
+  position: absolute;
+  bottom: 30%;
+  right: 20%;
+  color: rgba(255, 255, 255, 0.08);
+  cursor: default;
+  transition: 1s;
+}
+
+.js:hover {
+  color: white;
+}
+
+.react {
+  position: absolute;
+  bottom: 20%;
+  left: 10%;
+  color: rgba(255, 255, 255, 0.08);
+  transform: rotate(50deg);
+  cursor: default;
+  transition: 1s;
+}
+
+.react:hover {
+  color: white;
+}
+
+.redux {
+  position: absolute;
+  bottom: 10%;
+  left: 50%;
+  color: rgba(255, 255, 255, 0.08);
+  cursor: default;
+  transition: 1s;
+}
+
+.redux:hover {
+  color: white;
+}
+
+.node {
+  position: absolute;
+  top: 13%;
+  right: 50%;
+  color: rgba(255, 255, 255, 0.08);
+  transform: rotate(-40deg);
+  cursor: default;
+  transition: 1s;
+}
+
+.node:hover {
+  color: white;
+}
+
+.ajax {
+  position: absolute;
+  top: 20%;
+  right: 16%;
+  color: rgba(255, 255, 255, 0.08);
+  cursor: default;
+  transition: 1s;
+}
+
+.ajax:hover {
+  color: white;
+}
+
+@media(max-width: 900px) {
+  .html {
+    font-size: 0.9rem;
+  }
+
+  .css {
+    font-size: 0.9rem;
+  }
+
+  .js {
+    font-size: 0.9rem;
+  }
+
+  .react {
+    font-size: 0.9rem;
+  }
+
+  .redux {
+    font-size: 0.9rem;
+  }
+
+  .node {
+    font-size: 0.9rem;
+  }
+
+  .ajax {
+    font-size: 0.9rem;
+  }
+}
+@media(max-width: 600px) {
+  .html {
+    font-size: 0.8rem;
+  }
+
+  .css {
+    font-size: 0.8rem;
+  }
+
+  .js {
+    font-size: 0.8rem;
+  }
+
+  .react {
+    font-size: 0.8rem;
+  }
+
+  .redux {
+    font-size: 0.8rem;
+  }
+
+  .node {
+    font-size: 0.8rem;
+  }
+
+  .ajax {
+    font-size: 0.8rem;
+  }
+}
+@media(max-width: 480px) {
+  .html {
+    font-size: 0.6rem;
+  }
+
+  .css {
+    font-size: 0.6rem;
+  }
+
+  .js {
+    font-size: 0.6rem;
+  }
+
+  .react {
+    font-size: 0.6rem;
+  }
+
+  .redux {
+    font-size: 0.6rem;
+  }
+
+  .node {
+    font-size: 0.6rem;
+  }
+
+  .ajax {
+    font-size: 0.6rem;
+  }
+}

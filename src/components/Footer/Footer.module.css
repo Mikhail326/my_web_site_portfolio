@@ -1,0 +1,12 @@
+.containerFooter {
+    text-align: center;
+    background-color: rgb(28, 29, 37);
+    padding: 3rem;
+    position: relative;
+}
+
+.containerFooter h6 {
+    font-size: 1rem;
+    margin: 0;
+    color: white;
+}

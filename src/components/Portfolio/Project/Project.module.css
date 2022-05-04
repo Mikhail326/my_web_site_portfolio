@@ -1,0 +1,250 @@
+.project {
+  margin: 100px auto;
+  width: 80%;
+  height: 480px;
+  position: relative;
+  text-align: center;
+  box-shadow: 0 15px 50px 0 black;
+  transition: 0.5s;
+}
+
+.project:hover {
+  box-shadow: 0 25px 70px 0 black;
+}
+
+.projectImage {
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.projectImage:hover .infoProject {
+  transform: scale(1.1);
+}
+
+.projectImage:hover .projectNumber {
+  opacity: 1;
+}
+
+.projectImage::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  display: block;
+  content: " ";
+  background: #0d0d16fa;
+  opacity: 0.6;
+  transition: opacity .3s ease;
+}
+
+.projectImageMasc {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.projectImageMasc::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  opacity: 1;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background: linear-gradient(162deg, rgba(45, 101, 180, 0.527), rgba(32, 49, 105, 0.623));
+  transition: 0.5s cubic-bezier(.694, .048, .335, 1);
+  z-index: 9;
+}
+
+.projectImage:hover .projectImageMasc::after {
+  width: 100%;
+}
+
+.projectNumber {
+  opacity: 0;
+  font-size: 7rem;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: -10%;
+  right: 0;
+  width: 20%;
+  height: 40%;
+  transition: 0.5s cubic-bezier(1, -0.13, 0.74, 0.23);
+}
+
+.infoProject {
+  text-align: left;
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 55%;
+  left: 8%;
+  transition: all 0.5s cubic-bezier(1, -0.13, 0.74, 0.23);
+}
+
+.dataProject {
+  color: white;
+  position: absolute;
+  top: 67%;
+  font-size: 1.2rem;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman, serif;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.link {
+  width: 200px;
+  display: inline-block;
+  font-size: 1rem;
+  position: absolute;
+  top: 110%;
+  left: 0;
+}
+
+.link a {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, rgb(45, 45, 206) 40%, rgb(239, 72, 61) 60%);
+  background-size: 300% 100%;
+  transition: background-position .5s;
+  background-position: 100%;
+  border: none;
+  padding: 0.8rem 2rem;
+}
+
+
+.link:hover a {
+  background-position: 0%;
+}
+
+@media (max-width: 1024px) {
+  .project {
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 80%;
+    height: 450px;
+  }
+
+  .project:hover {
+    box-shadow: 0 15px 50px 0 black;
+  }
+
+  .projectImage:hover .infoProject {
+    transform: none;
+  }
+
+  .projectImage:hover .projectNumber {
+    opacity: 0;
+  }
+
+  .projectImageMasc {
+    display: none;
+  }
+
+  .infoProject {
+    font-size: 1.8rem;
+    top: 50%;
+  }
+
+  .dataProject {
+    font-size: 1.1rem;
+  }
+
+  .link a {
+    padding: 0.7rem 1.8rem;
+  }
+
+  .projectNumber {
+    top: -12%;
+    font-size: 6.5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .project {
+    margin: 2.5rem auto;
+    height: 450px;
+    box-shadow: 0 10px 20px 0 black;
+  }
+
+  .infoProject {
+    top: 55%;
+    font-size: 1.6rem;
+  }
+
+  .dataProject {
+    top: 70%;
+    font-size: 1rem;
+  }
+
+  .link {
+    top: 130%;
+  }
+
+  .projectNumber {
+    font-size: 6rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .project {
+    margin-bottom: 110px;
+    width: 100%;
+  }
+
+  .infoProject {
+    font-size: 1.4rem;
+  }
+
+  .dataProject {
+    font-size: 0.9rem;
+  }
+
+  .link {
+    top: 130%;
+  }
+
+  .link a {
+    padding: 0.9rem 1rem;
+  }
+
+  .projectNumber {
+    font-size: 5.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .project {
+    height: 250px;
+  }
+
+  .infoProject {
+    padding-right: 10%;
+    top: 10%;
+    line-height: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .link {
+    top: 140%;
+  }
+
+  .dataProject {
+    top: 80%;
+    font-size: 1.2rem;
+  }
+
+  .projectNumber {
+    font-size: 4.5rem;
+  }
+}

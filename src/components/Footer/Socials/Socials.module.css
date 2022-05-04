@@ -1,0 +1,19 @@
+.socialsList {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.socialsListItem {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+.socialsListItem a {
+  color: cadetblue;
+  transition: 0.5s;
+}
+.socialsListItem:hover a {
+  color: white;
+}

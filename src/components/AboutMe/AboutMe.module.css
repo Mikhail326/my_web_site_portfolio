@@ -1,0 +1,38 @@
+.containerAboutMe {
+  position: relative;
+  padding: 4rem 2rem 7rem 2rem;
+  background-color: rgb(28, 29, 37);
+  border-bottom: 2px solid black;
+}
+
+.wrapperAboutMe {
+  margin: 0 4rem;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 10px 20px 0 black;
+}
+@media(max-width: 900px) {
+  .wrapperAboutMe {
+    margin: 0 2rem;
+    flex-direction: column
+  }
+  .containerAboutMe {
+    padding: 2rem 2rem 5rem 2rem;
+  }
+}
+@media(max-width: 768px) {
+  .wrapperAboutMe {
+    margin: 0;
+  }
+  .containerAboutMe {
+    padding: 2rem 2rem 5rem 2rem;
+  }
+}
+@media(max-width: 480px) {
+  .wrapperAboutMe {
+    margin: 0;
+  }
+  .containerAboutMe {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}

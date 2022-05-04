@@ -1,0 +1,19 @@
+.title {
+  text-align: center;
+}
+
+.title h2 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman, serif;
+}
+@media(max-width: 900px) {
+  .title h2 {  
+    font-size: 2rem;
+  }
+}
+@media(max-width: 480px) {
+  .title h2 {  
+    font-size: 1.5rem;
+  }
+}

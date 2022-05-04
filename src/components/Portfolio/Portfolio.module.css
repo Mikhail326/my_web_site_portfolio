@@ -1,0 +1,10 @@
+.containerPortfolio {
+  padding: 4rem 2rem 7rem 2rem;
+  background-color: rgb(206, 202, 206);
+  border-bottom: 2px solid black;
+}
+@media(max-width: 900px) {
+  .containerPortfolio{
+    padding: 3rem 0.5rem 0 0.5rem;
+  }
+}

@@ -1,0 +1,60 @@
+.wrapperForm {
+  position: relative;
+  z-index: 6;
+  color: white;
+  width: 100%;
+  background-color: rgba(28, 29, 37);
+}
+
+.titleForm {
+  margin-top: 6rem;
+  padding: 0 3rem;
+}
+
+.titleForm h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.form {
+  margin: 3rem 0 10rem 0;
+  padding: 0 3rem;
+  width: 100%;
+}
+
+.formInput {
+  padding: 0.5rem;
+  width: 100%;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  resize: none;
+}
+
+.inputSubmit {
+  text-decoration: none;
+  color: white;
+  background-image: linear-gradient(to right, rgb(45, 45, 206) 40%, rgb(239, 72, 61) 60%);
+  background-size: 300% 100%;
+  transition: background-position .5s;
+  background-position: 100%;
+  border: none;
+  padding: 1em 2em;
+}
+
+.inputSubmit:hover {
+  background-position: 0%;
+}
+@media(max-width: 900px) {
+  .form {
+    margin: 3rem 0 6rem 0;
+    padding: 0 3rem;
+    width: 100%;
+  }
+  .titleForm {
+    margin-top: 4rem;
+    padding: 0 3rem;
+  }
+  .titleForm h3 {
+    font-size: 1.5rem;
+  }
+}

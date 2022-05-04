@@ -1,0 +1,15 @@
+.MobileNavigation {
+  display: none;
+}
+
+.icon {
+  font-size: 3.5rem;
+  color: white;
+  padding-left: 1rem;
+}
+
+@media(max-width: 768px) {
+  .MobileNavigation {
+    display: flex;
+  }
+}

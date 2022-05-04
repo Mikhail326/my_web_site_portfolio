@@ -1,0 +1,16 @@
+.titleAboutMe {
+  text-align: center;
+}
+
+.titleAboutMe h2 {
+  color: white;
+  margin-bottom: 4rem;
+  font-size: 2.5rem;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman, serif;
+}
+@media(max-width: 900px) {
+  .titleAboutMe h2 {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+  }
+}

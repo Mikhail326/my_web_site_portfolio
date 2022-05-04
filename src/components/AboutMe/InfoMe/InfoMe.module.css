@@ -1,0 +1,104 @@
+.infoMe {
+  font-size: 1.1rem;
+  width: 100%;
+  background-color: rgb(235, 235, 235);
+}
+
+.infoMe h3 {
+  margin-top: 6rem;
+  padding: 0 3rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.infoMe h4 {
+  padding: 0 3rem;
+  color: rgb(102, 101, 101);
+  margin-bottom: 2.5rem;
+  font-size: 1em;
+  font-family: LibreBaskerville-Regular, Palatino Linotype, Times New Roman, serif;
+  font-weight: 400;
+}
+
+.infoMeText {
+  text-align: justify;
+  font-size: 1.2rem;
+  padding: 0 3rem;
+  line-height: 2rem;
+  margin-bottom: 4rem;
+}
+
+.infoMeText strong {
+  color: rgb(224, 76, 50);
+  font-weight: bold;
+}
+
+.infoMeSkillsList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 2rem;
+  margin: 3rem 0;
+  padding: 0;
+}
+
+.infoMeSkillsListItem {
+  font-size: 4rem;
+  transition: 0.5s;
+}
+
+.infoMeSkillsListItem:hover {
+  color: rgb(224, 76, 50);
+}
+
+.infoMeOverflow {
+  font-size: 15rem;
+  font-weight: bold;
+  color: rgba(167, 167, 167, 0.164);
+  position: absolute;
+  top: 139px;
+  right: 103px;
+  z-index: 1;
+}
+@media(max-width: 900px) {
+  .infoMe h3 {
+    margin-top: 4rem;
+    font-size: 1.5rem;
+  }
+  .infoMeText {
+    line-height: 1.5rem;
+  }
+  .infoMeSkillsListItem {
+    font-size: 2.5rem;
+  }
+  .infoMeOverflow {
+    font-size: 12rem;
+  }
+}
+@media(max-width: 480px) {
+  .infoMe h3 {
+    padding: 0 1rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+  }
+  .infoMe h4 {
+    padding: 0 1rem;
+    margin-bottom: 1.5rem;
+    font-size: 1em;
+  }
+  .infoMeText {
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .infoMeSkillsList {
+    margin: 2rem 0;
+  }
+  .infoMeSkillsListItem {
+    font-size: 2.5rem;
+  }
+  .infoMeOverflow {
+    display: none;
+  }
+}
