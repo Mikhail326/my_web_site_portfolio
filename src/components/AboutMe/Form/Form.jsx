@@ -11,12 +11,10 @@ const Form = () => {
       'template_f0kzehd',
       e.target,
       'user_SZj91CfFwXJCwMZnQuy0Z')
-    await emailjs.sendForm(
-      'service_es7rusp',
-      'template_f0kzehd',
-      e.target,
-      'user_SZj91CfFwXJCwMZnQuy0Z')
-      .then(res => console.log(res)).catch(err => console.log(err))
+      .then(res => {
+        console.log(res)
+        
+      }).catch(err => console.log(err))
   }
 
   const { register,
