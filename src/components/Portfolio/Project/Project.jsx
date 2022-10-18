@@ -88,7 +88,7 @@ const Project = () => {
       id: '11',
       name: 'template-html-scss-js-php-mysql',
       date: 'september 2022',
-      link: 'https://mikhail326.github.io/project_html_scss_js_php_mysql/'
+      link: 'http://php.mikhailstelmakh.ru/'
     },
     {
       backgroundImage: { backgroundImage: `url(${project12})` },
