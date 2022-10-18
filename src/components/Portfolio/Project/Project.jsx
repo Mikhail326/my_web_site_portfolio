@@ -10,6 +10,7 @@ import project8 from '../../../assets/image/project_8.png'
 import project9 from '../../../assets/image/project_9.jpg'
 import project10 from '../../../assets/image/project_10.png'
 import project11 from '../../../assets/image/project_11.png'
+import project12 from '../../../assets/image/project_12.png'
 
 const Project = () => {
   const arrProjects = [
@@ -88,6 +89,13 @@ const Project = () => {
       name: 'template-html-scss-js-php-mysql',
       date: 'september 2022',
       link: 'https://mikhail326.github.io/project_html_scss_js_php_mysql/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project12})` },
+      id: '12',
+      name: 'send_letter_mail',
+      date: 'october 2022',
+      link: 'http://test.mikhailstelmakh.ru/'
     },
   ]
   return (
