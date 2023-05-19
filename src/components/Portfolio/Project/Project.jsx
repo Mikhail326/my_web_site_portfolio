@@ -11,88 +11,136 @@ import project9 from '../../../assets/image/project_9.jpg'
 import project10 from '../../../assets/image/project_10.png'
 import project11 from '../../../assets/image/project_11.png'
 import project12 from '../../../assets/image/project_12.png'
+import project13 from '../../../assets/image/project_13.png'
+import project14 from '../../../assets/image/project_14.png'
+import project15 from '../../../assets/image/project_15.png'
+import project16 from '../../../assets/image/project_16.png'
+import project17 from '../../../assets/image/project_17.png'
+import project18 from '../../../assets/image/project_18.png'
 
 const Project = () => {
   const arrProjects = [
     {
       backgroundImage: { backgroundImage: `url(${project10})` },
       id: '01',
-      name: 'Lagerya',
+      name: 'lagerya.by',
       date: 'March 2022',
       link: 'http://lagerya.by'
     },
     {
-      backgroundImage: { backgroundImage: `url(${project1})` },
+      backgroundImage: { backgroundImage: `url(${project14})` },
       id: '02',
+      name: 'linline-club.by',
+      date: 'November 2022',
+      link: 'https://linline-club.by/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project13})` },
+      id: '03',
+      name: 'salt.by',
+      date: 'January 2023',
+      link: 'https://salt.by/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project15})` },
+      id: '04',
+      name: 'thegussi.ru',
+      date: 'Оctober 2022',
+      link: 'http://dev.thegussi.ru/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project16})` },
+      id: '05',
+      name: 'h-book.by',
+      date: 'December 2022',
+      link: 'http://h-book.by/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project17})` },
+      id: '06',
+      name: 'forestcamp.by',
+      date: 'February 2022',
+      link: 'http://forestcamp.by/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project18})` },
+      id: '07',
+      name: 'eduhorizont.by',
+      date: 'October 2022',
+      link: 'https://eduhorizont.by/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project1})` },
+      id: '08',
       name: 'Grid template init project',
       date: 'June 2021 - July 2021',
       link: 'https://mikhail326.github.io/grid-template-init-project/'
     },
     {
+      backgroundImage: { backgroundImage: `url(${project11})` },
+      id: '09',
+      name: 'template-html-scss-js-php-mysql',
+      date: 'september 2022',
+      link: 'http://php.mikhailstelmakh.ru/'
+    },
+    {
+      backgroundImage: { backgroundImage: `url(${project6})` },
+      id: '10',
+      name: 'Countries app react project',
+      date: 'December 2021',
+      link: 'https://mikhail326.github.io/countries__app__react__/'
+    },
+    {
       backgroundImage: { backgroundImage: `url(${project2})` },
-      id: '03',
+      id: '11',
       name: 'Kinozal template init project',
       date: 'June 2021 - July 2021',
       link: 'https://mikhail326.github.io/kinozal-template-init-project/'
     },
     {
       backgroundImage: { backgroundImage: `url(${project3})` },
-      id: '04',
+      id: '12',
       name: 'JavaScript carousel project',
       date: 'July 2021',
       link: 'https://mikhail326.github.io/js-carousel/'
     },
     {
       backgroundImage: { backgroundImage: `url(${project4})` },
-      id: '05',
+      id: '13',
       name: 'Calculation of purchase',
       date: 'September 2021',
       link: 'https://mikhail326.github.io/front-end-shop-template-/'
     },
     {
       backgroundImage: { backgroundImage: `url(${project5})` },
-      id: '06',
+      id: '14',
       name: 'JS film search project',
       date: 'September 2021',
       link: 'https://mikhail326.github.io/film-search/'
     },
     {
-      backgroundImage: { backgroundImage: `url(${project6})` },
-      id: '07',
-      name: 'Countries app react project',
-      date: 'December 2021',
-      link: 'https://mikhail326.github.io/countries__app__react__/'
-    },
-    {
       backgroundImage: { backgroundImage: `url(${project7})` },
-      id: '08',
+      id: '15',
       name: 'Todo app react project',
       date: 'December 2021',
       link: 'https://mikhail326.github.io/todo_app_react/'
     },
     {
       backgroundImage: { backgroundImage: `url(${project8})` },
-      id: '09',
+      id: '16',
       name: 'My web siet react project',
       date: 'December 2021',
       link: 'https://mikhailstelmakh.ru/'
     },{
       backgroundImage: { backgroundImage: `url(${project9})` },
-      id: '10',
+      id: '17',
       name: 'Sea battle JS',
       date: 'January 2022',
       link: 'https://mikhail326.github.io/sea_battle_js/'
     },
     {
-      backgroundImage: { backgroundImage: `url(${project11})` },
-      id: '11',
-      name: 'template-html-scss-js-php-mysql',
-      date: 'september 2022',
-      link: 'http://php.mikhailstelmakh.ru/'
-    },
-    {
       backgroundImage: { backgroundImage: `url(${project12})` },
-      id: '12',
+      id: '18',
       name: 'send_letter_mail',
       date: 'october 2022',
       link: 'http://test.mikhailstelmakh.ru/'
